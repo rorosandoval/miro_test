@@ -1,0 +1,160 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/fondo.png')
+    
+}
+
+.header {
+    vertical-align: middle;
+}
+
+.txtnav {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+
+
+}
+
+.txtparrafo1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+}
+
+.txtparrafo2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: #efc469;
+    padding-top: 3rem;
+
+}
+
+.boton1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: #efc469;
+    padding: 0.75rem 1rem;
+}
+
+/*Clase rodrigo*/
+
+.txttitulo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.813rem;
+    line-height: 1.7rem;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    
+
+}
+
+.acordeon {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #ffffff;
+    background-color: #efc469;
+    padding: 0.75rem 1rem;
+
+
+}
+
+#acordeon {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        color: #ffffff;
+        background-color: #efc469;
+        padding: 0.75rem 1rem;
+    
+}
+
+.cuadrorojo {
+    background-color: #C85E5F;
+    border-radius: 0.1rem;
+    vertical-align: middle;
+}
+
+.cuadroverde {
+    background-color: #5AA69C;
+    border-radius: 0.1rem;
+    vertical-align: middle;
+}
+
+/*clases antonieta*/
+.txtinstructores {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: #000000;
+    
+
+}
+
+.txtnombreinstructores {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 1.7rem;
+    color: #82B0C7;
+    
+
+}
+
+.txttitulo2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.813rem;
+    line-height: 1.7rem;
+    color: #82B0C7;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    
+
+}
+
+.linea1 {
+
+border: 4.7666px solid #C5665E;
+background-color: #C5665E;
+width: 20%;
+
+
+}
+
+.linea2 {
+
+    border: 4.7666px solid #99CFDF;
+    background-color: #99CFDF;
+    width: 20%;
+    
+    
+    }
