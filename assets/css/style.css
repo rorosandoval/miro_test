@@ -2,7 +2,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../img/fondo.png')
-    
+}
+
+.navlink {
+    color: #000000;
 }
 
 .header {
@@ -25,10 +28,10 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 2.8rem;
     text-align: center;
     color: #FFFFFF;
-    
+
 
 }
 
@@ -37,20 +40,26 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 2.8rem;
     color: #efc469;
-    padding-top: 3rem;
 
+
+}
+
+.imgtxt {
+    width: 80%;
+    vertical-align: middle;
+    margin: 0 auto;
 }
 
 .boton1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.2rem;
-    line-height: 1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
     color: #efc469;
-    padding: 0.75rem 1rem;
+    padding: 1.25rem 1.5rem;
 }
 
 /*Clase rodrigo*/
@@ -64,45 +73,59 @@ body {
     color: #ffffff;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-    
-
 }
 
 .acordeon {
+    width: 70%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: 2rem;
     background-color: #efc469;
-    padding: 0.75rem 1rem;
+    margin: 0 auto;
 
 
 }
 
 #acordeon {
-        font-family: 'Poppins', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 1.2rem;
-        line-height: 1.6rem;
-        color: #ffffff;
-        background-color: #efc469;
-        padding: 0.75rem 1rem;
-    
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #ffffff;
+    background-color: #efc469;
+    padding: 0.75rem 1rem;
+    margin: 0 auto;
+
 }
 
 .cuadrorojo {
+    width: 70%;
     background-color: #C85E5F;
-    border-radius: 0.1rem;
     vertical-align: middle;
+    margin: 0 auto;
 }
 
 .cuadroverde {
+    width: 70%;
     background-color: #5AA69C;
     border-radius: 0.1rem;
     vertical-align: middle;
+    margin: 0 auto;
+}
+
+
+.txtancho {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.txtancho2 {
+    width: 75%;
+    margin: 0 auto;
 }
 
 /*clases antonieta*/
@@ -111,9 +134,9 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 2rem;
     color: #000000;
-    
+
 
 }
 
@@ -122,9 +145,9 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.875rem;
-    line-height: 1.7rem;
+    line-height: 2rem;
     color: #82B0C7;
-    
+
 
 }
 
@@ -137,15 +160,13 @@ body {
     color: #82B0C7;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-    
-
 }
 
 .linea1 {
 
-border: 4.7666px solid #C5665E;
-background-color: #C5665E;
-width: 20%;
+    border: 4.7666px solid #C5665E;
+    background-color: #C5665E;
+    width: 20%;
 
 
 }
@@ -155,6 +176,21 @@ width: 20%;
     border: 4.7666px solid #99CFDF;
     background-color: #99CFDF;
     width: 20%;
-    
-    
-    }
+
+
+}
+
+.textofooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+
+
+}
+
+.footer2 {
+    background-color: #000000;
+}

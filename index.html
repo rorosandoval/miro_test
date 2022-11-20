@@ -35,13 +35,13 @@
             <div class="collapse navbar-collapse justify-content-end txtnav" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">INFORMACIÓN</a>
+                        <a class="nav-link navlink" aria-current="page" href="index.html">INFORMACIÓN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#temario">TEMARIO</a>
+                        <a class="nav-link navlink" href="#temario">TEMARIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#instructores">INSTRUCTORES</a>
+                        <a class="nav-link navlink" href="#instructores">INSTRUCTORES</a>
                     </li>
                 </ul>
             </div>
@@ -49,37 +49,36 @@
     </nav>
 
     <!--HEADER-->
-    <section class="container align-bottom mt-5 pt-5">
+    <section class="txtancho align-bottom">
         <div class="container">
-            <div class="row align-middle">
-                <div class="col-md-6">
-                    <img class="img-fluid" src="assets/img/texto-escuela-computacion.png"
-                        alt="Primera escuela de computación cuántica">
-                </div>
-                <div class="col-md-6">
-                </div>
+
+            <div class="container">
+                <img class="img-fluid" src="assets/img/head.png" alt="Primera escuela de computación cuántica">
             </div>
         </div>
+
     </section>
 
     <!--TEXTO 1-->
-    <div class="container mt-5 pt-5">
-        <p class="txtparrafo1 align-middle p-5 align-bottom">Curso introductorio a la computación cuántica en el cual se
+    <div class="txtancho2 mt-5">
+        <p class="txtparrafo1 align-middle">Curso introductorio a la computación cuántica en el cual se
             abarcarán algoritmos
             cuánticos
-            de búsqueda, algoritmos variacionales y quantum machine learning. Cada tema vendrá acompañado de un taller
+            de búsqueda, algoritmos variacionales y quantum machine learning. </p>
+
+        <p class="txtparrafo1 align-middle">Cada tema vendrá acompañado de un taller
             de programación con Qiskit - el lenguaje desarrollado por IBM para programar computadores cuánticos - donde
             veremos ejemplos y aplicaciones de estos algoritmos cuánticos.</p>
     </div>
 
     <!--FECHA + TEXTO-->
-    <div class="container">
-        <div class="containter">
+    <div class="txtancho mt-5">
+        <div class="imgtxt">
             <div class="row">
-                <div class="col-md-6 pt-5"> <img class="img-fluid" src="assets/img/ilustracion-4.png"
+                <div class="col-md"> <img class="img-fluid" src="assets/img/ilustracion-4.png"
                         alt="del 9 al 13 de enero"></div>
-                <div class="col-md-6 pt-5">
-                    <p class="txtparrafo2 d-none d-sm-block">Para estudiantes de tercer año en adelante y egresados de
+                <div class="col-md">
+                    <p class="txtparrafo2">Para estudiantes de tercer año en adelante y egresados de
                         carreras de física,
                         ingeniería, química o matemáticas con conocimientos en programación.</p>
                 </div>
@@ -90,7 +89,7 @@
 
     <!--BOTONES-->
 
-    <div class="container">
+    <div class="txtancho">
         <div class="row ">
 
             <div class="col-6 pt-5 text-center"><a
@@ -133,9 +132,9 @@
     </div>
 
     <!--ACORDEON-->
-    <div class="container m-5 pb-5">
+    <div class="acordeon mt-5 pt-5 pb-5">
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="">
                 <h2 class="accordion-header acordeon" id="headingOne">
                     <button class="accordion-button" id="acordeon" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -157,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="">
                 <h2 class="accordion-header acordeon" id="headingTwo">
                     <button class="accordion-button collapsed" id="acordeon" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -173,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="">
                 <h2 class="accordion-header acordeon" id="headingThree">
                     <button class="accordion-button collapsed" id="acordeon" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -190,7 +189,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="">
                 <h2 class="accordion-header acordeon" id="headingFour">
                     <button class="accordion-button collapsed" id="acordeon" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -206,7 +205,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="">
                 <h2 class="accordion-header acordeon" id="headingFive">
                     <button class="accordion-button collapsed" id="acordeon" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -236,311 +235,360 @@
         </center>
 
     </div>
-    <!--Guillermo Alonso-Linaje-->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/guillermo.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Guillermo Alonso-Linaje</p>
-                    <p class="txtinstructores">Matemático e informático de la Universidad de Valladolid,
-                        se especializa en problemas de optimización y algoritmia. Actualmente trabaja en Xanadu,
-                        focalizado en el campo de Quantum Machine Learning. Además, a nivel personal lleva un proyecto
-                        de divulgación de Computación Cuántica en Youtube (Ket.G)</p>
+    <div class="txtancho">
+        <!--Guillermo Alonso-Linaje-->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/guillermo.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Guillermo Alonso-Linaje</p>
+                        <p class="txtinstructores">Matemático e informático de la Universidad de Valladolid,
+                            se especializa en problemas de optimización y algoritmia. Actualmente trabaja en Xanadu,
+                            focalizado en el campo de Quantum Machine Learning. Además, a nivel personal lleva un
+                            proyecto
+                            de divulgación de Computación Cuántica en Youtube (Ket.G)</p>
 
-                    <a href="https://www.linkedin.com/in/guillermo-alonso-linaje-b198a617b/" target="_blank"><img
-                            src="assets/img/logo-linkedin.png" alt=""></a>
-                    <a href="https://www.youtube.com/channel/UCedVPGH5fnWBmsR4oHVOX6w" target="_blank"><img
-                            src="assets/img/logo-youtube.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/guillermo-alonso-linaje-b198a617b/" target="_blank"><img
+                                src="assets/img/logo-linkedin.png" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCedVPGH5fnWBmsR4oHVOX6w" target="_blank"><img
+                                src="assets/img/logo-youtube.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Carla Hermann-->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/carla.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Carla Hermann</p>
+                        <p class="txtinstructores">Investigadora asociada del Instituto Milenio de Investigación en
+                            Óptica
+                            (MIRO) y académica de la Universidad de Chile. Es Doctora en óptica cuántica experimental de
+                            la
+                            Faculté des Sciences de Sorbonne Université y realizó un doctorado teórico en la Universidad
+                            de
+                            Concepción (UDEC) en Ciencias Físicas. </p>
+                        <p class="txtinstructores">Actualmente es parte del Grupo de Óptica de la Universidad de Chile,
+                            liderando el área de óptica
+                            cuántica. Fue la primera científica chilena en recibir el reconocimiento L’Oreal for Women
+                            in
+                            Science (2017) en la categoría de investigadora postdoctoral y en el área de óptica. </p>
+                        <p class="txtinstructores"> Su área de especialización es la óptica cuántica experimental y
+                            teórica
+                            y sus recientes
+                            investigaciones se centran el estudio de la metrología cuántica con luz comprimida y en
+                            ingeniería de estados cuánticos.</p>
+                        <a href="https://es.wikipedia.org/wiki/Carla_Hermann" target="_blank"><img
+                                src="assets/img/logo-wordpress.png" alt=""></a>
+                        <a href="https://www.miroptics.cl/investigadores-asociados/" target="_blank"><img
+                                src="assets/img/logo-cursor.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Francisco Albarrán-Arriagada-->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/francisco.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Francisco Albarrán-Arriagada</p>
+                        <p class="txtinstructores">Es profesor asistemte de la Universidad de Santiago de Chile, en el
+                            marco
+                            de un proyecto de inserción en la academia. Es Doctor en Ciencias, Mención Física (2018) de
+                            la
+                            Universidad de Santiago de Chile, donde trabajó bajo la tutela del Dr. Juan Carlos Retamal
+                            en el
+                            área de procesamiento de información cuántica en el modelo cuántico de Rabi, desarrollando
+                            trabajos en quantum machine learning, thermal machines, quantum algorithms, y quantum
+                            simulations.</p>
+                        <p class="txtinstructores">Se especializa en plataformas cuánticas como circuitos
+                            superconductores e
+                            Iones atrapados. En el periodo 2019-2020 fue investigador posdoctoral en el grupo del Dr.
+                            Enrique Solano en la Universidad de Shanghai en tecnologías cuánticas, desarrollando
+                            trabajos en
+                            campos como Quantum Machine Learning, Quantum Algorithms, Quantum Memristive Devices y
+                            Quantum
+                            Simulations.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Juan Pablo Soto-->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/juanpablo.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Juan Pablo Soto</p>
+                        <p class="txtinstructores">Es ejecutivo técnico e IBM Inventor, dedicado a transformar empresas
+                            a
+                            través de tecnologías disruptivas. Lidera la práctica de Customer Success en el Cono Sur de
+                            América Latina. Es un embajador certificado de IBM Quantum, el computador cuántico de IBM.
+                            Lideró las Arquitecturas de Cloud y la adopción temprana de DevOps, Agile y Design Thinking
+                            en
+                            la región. Además, es un reconocido influencer de redes sociales respecto a nuevas
+                            tecnologías.
+                        </p>
+                        <a href="https://twitter.com/jpsoto" target="_blank"
+                            style="color: black; text-decoration: none;"><img src="assets/img/logo-twitter.png"
+                                alt="">@jpsoto </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Dominique Spehner-->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/dominique.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Dominique Spehner</p>
+                        <p class="txtinstructores">Académico del Departamento de Ingeniería Matemática de la Universidad
+                            de
+                            Concepción. Es Doctor en Física Teórica de la Universidad Paul Sabatier, en Francia (2000),
+                            Magíster en Física Teórica del École Normale Supérieure, de Francia (1994) y Licenciado en
+                            Física de la Universidad Joseph Fourier, de Francia (1994).
+                        </p>
+                        <p class="txtinstructores">Fue docente de la Universidad de Grenoble Aples, de Francia entre
+                            2005 y
+                            2018. Sus áreas de interés son:
+                            Quantum information theory, Open Quantum Systems, Decoherence, Quantum metrology, Cold
+                            atomic
+                            gases.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Tomás Ramos-->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/tomas.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Tomás Ramos</p>
+                        <p class="txtinstructores">Tomás Ramos estudió Física en la Universidad de Concepción, Chile,
+                            donde
+                            obtuvo el grado de Magíster con una tesis sobre Electrodinámica clásica en medios
+                            materiales,
+                            guiada por el profesor G. Rubilar (2011). Luego, realizó estudios doctorales en la
+                            Universidad
+                            de Innsbruck, Austria. Su tesis “Chiral Quantum optics with spins, photons, and photons”
+                            (2016),
+                            fue guiada por el profesor Peter Zoller, uno de los padres de la Óptica e Información
+                            Cuántica.
+                            Desde finales de 2016, Tomás trabaja como investigador postdoctoral en el Consejo Superior
+                            de
+                            Investigaciones Científicas (CSIC) en Madrid, donde colabora con científicos líderes en
+                            tecnologías cuánticas, entre ellos Juanjo García-Ripoll, Diego Porras, y Alejandro
+                            González-Tudela. Durante este periodo postdoctoral, Tomás ha recibido una beca Marie Curie
+                            de la
+                            Unión Europea, dos becas Juan de la Cierva del Ministerio de Ciencias español y
+                            recientemente un
+                            contrato tenure-track “Ramón y Cajal” para la inserción en la academia española. Su línea
+                            principal de investigación es la óptica cuántica aplicada a tecnologías cuánticas basadas en
+                            fotones en plataformas, como la nanofotónica o circuitos superconductores.
+                        </p>
+                        <a href="https://quinfog.hbar.es/members/tomas-ramos/" target="_blank"><img
+                                src="assets/img/logo-cursor.png" alt=""></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Luciano Pereira -->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/luciano.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Luciano Pereira </p>
+                        <p class="txtinstructores">Luciano Pereira estudió Ciencias Físicas en la Universidad de
+                            Concepción,
+                            donde posteriormente también hizo un Magíster en Física. Actualmente se encuentra realizando
+                            un
+                            doctorado en física en el Instituto de Física Fundamental (IFF) del Consejo Superior de
+                            Investigaciones Científicas (CSIC) en Madrid, España. Sus principales líneas de
+                            investigación
+                            son la caracterización de sistemas cuánticos, algoritmos variacionales, y circuitos
+                            superconductores. Luciano forma parte del “Qiskit Advocates program” y ha tenido destacadas
+                            participaciones en desafíos y hackáthones en computación cuántica como: IBM Quantum
+                            Challenge
+                            2019, 2020 y 2021, QHACK 2021 y 2022, Qiskit Hackathon Europe 2021, Qiskit Hackathon Madrid
+                            2021, Global Qiskit Hackathon 2021.
+                        </p>
+                        <a href="https://scholar.google.es/citations?user=PvGLqIwAAAAJ&hl=es" target="_blank"><img
+                                src="assets/img/logo-google.png" alt=""></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Bárbara Alejandra Candia Gonzalez -->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/barbara.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Bárbara Alejandra Candia Gonzalez </p>
+                        <p class="txtinstructores">Actualmente se desempeña como asistente de investigación del grupo de
+                            información cuántica del Instituto Milenio de Investigación en Óptica (MIRO). Obtuvo su
+                            Licenciatura en Física (2019) y su Magíster en Física (2022) bajo la guía del investigador
+                            de
+                            MIRO Dr. Aldo Delgado en la Universidad de Concepción y se está preparando para iniciar sus
+                            estudios de doctorado en EE.UU. Su investigación se centra en control cuántico y cómo puede
+                            ser
+                            utilizado en resolver problemas de interés.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Andrés Damián Muñoz Möller -->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/andres.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Andrés Damián Muñoz Möller</p>
+                        <p class="txtinstructores">Actualmente se desempeña como ayudante de investigación del grupo de
+                            información cuántica del Instituto Milenio de Investigación en Óptica (MIRO). Obtuvo su
+                            Licenciatura en Física (2019) y su Magíster en Física (2022) en la Universidad de
+                            Concepción,
+                            siendo la información cuántica y la computación cuántica sus principales áreas de
+                            investigación.
+                            Participó en diversas actividades y competencias de computación cuántica, obteniendo primer
+                            lugar en la Hackathon de Qiskit Fall-Fest y segundo lugar en la Open Hackathon QHack 2022 en
+                            el
+                            subtema de simulación cuántica.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Daniel Concha Merino -->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/daniel.png" alt="del 9 al 13 de enero"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Daniel Concha Merino</p>
+                        <p class="txtinstructores">Realizó sus estudios de Pregrado y Magíster en Física en la
+                            Universidad
+                            de Concepción, Chile.
+                            Actualmente se encuentra realizando el Doctorado en Ciencias Físicas de la Universidad de
+                            Concepción. Sus intereses en cuanto a la investigación incluyen las comunicaciones ópticas
+                            cuánticas en canales ruidosos, teoría de entrelazamiento y fundamentos de la información
+                            cuántica.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Felipe Quinteros Moro -->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/felipe.png" alt="Felipe Quinteros Moro"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Felipe Quinteros Moro</p>
+                        <p class="txtinstructores">Estudiante de Magister en Física de la Universidad de Concepción y
+                            MIRO.
+                            Se dedica principalmente al estudio de simulaciones computacionales de sistemas físicos y a
+                            la
+                            realización de experimentos de óptica cuántica para estudiar fundamentos de mecánica
+                            cuántica.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Jorge Gidi Chomali -->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/jorge.png" alt="Jorge Gidi Chomali"></div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Jorge Gidi Chomali</p>
+                        <p class="txtinstructores">Estudió un Magíster en Ciencias con mención en Física y actualmente
+                            cursa
+                            un Doctorado en Ciencias Físicas, ambos en la Universidad de Concepción, Chile. Se interesa
+                            principalmente por la simulación eficiente de sistemas físicos, desarrollando simulaciones
+                            de
+                            alto rendimiento para estudiar inestabilidades en plasmas cinéticos. Actualmente se
+                            especializa
+                            en algoritmos cuánticos variacionales.</p>
+                        <p class="txtinstructores">Jorge fue parte de los equipos desarrolladores de los proyectos
+                            "Threerra", que obtuvo primer lugar en la "Quantum Hackathon CIC-IPN 2021" latinoamericana,
+                            y
+                            "VarQuS", ganador del segundo lugar en el desafío de simulación de la "Open Hackathon"
+                            mundial,
+                            enmarcada en la "QHACK 2022".</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Alejandro Ignacio Rojas Castro -->
+        <div class="container mt-5 pt-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-4"> <img src="assets/img/alejandro.png" alt="Alejandro Ignacio Rojas Castro">
+                    </div>
+                    <div class="col-md-8 pt-3">
+                        <p class="txtnombreinstructores">Alejandro Ignacio Rojas Castro</p>
+                        <p class="txtinstructores">Oriundo de Osorno, egresó de la carrera de Ciencias Físicas en la
+                            Universidad de Concepción, donde también obtuvo el grado de Magíster en Física. Actualmente
+                            cursa el Doctorado en Ciencias Físicas. Durante su investigación ha desarrollado experiencia
+                            en
+                            las áreas de tomografía cuántica y VQE.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-    </div>
-
-    <!--Carla Hermann-->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/carla.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Carla Hermann</p>
-                    <p class="txtinstructores">Investigadora asociada del Instituto Milenio de Investigación en Óptica
-                        (MIRO) y académica de la Universidad de Chile. Es Doctora en óptica cuántica experimental de la
-                        Faculté des Sciences de Sorbonne Université y realizó un doctorado teórico en la Universidad de
-                        Concepción (UDEC) en Ciencias Físicas. </p>
-                    <p class="txtinstructores">Actualmente es parte del Grupo de Óptica de la Universidad de Chile,
-                        liderando el área de óptica
-                        cuántica. Fue la primera científica chilena en recibir el reconocimiento L’Oreal for Women in
-                        Science (2017) en la categoría de investigadora postdoctoral y en el área de óptica. </p>
-                    <p class="txtinstructores"> Su área de especialización es la óptica cuántica experimental y teórica
-                        y sus recientes
-                        investigaciones se centran el estudio de la metrología cuántica con luz comprimida y en
-                        ingeniería de estados cuánticos.</p>
-                    <a href="https://es.wikipedia.org/wiki/Carla_Hermann" target="_blank"><img
-                            src="assets/img/logo-wordpress.png" alt=""></a>
-                    <a href="https://www.miroptics.cl/investigadores-asociados/" target="_blank"><img
-                            src="assets/img/logo-cursor.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Francisco Albarrán-Arriagada-->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/francisco.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Francisco Albarrán-Arriagada</p>
-                    <p class="txtinstructores">Es profesor asistemte de la Universidad de Santiago de Chile, en el marco
-                        de un proyecto de inserción en la academia. Es Doctor en Ciencias, Mención Física (2018) de la
-                        Universidad de Santiago de Chile, donde trabajó bajo la tutela del Dr. Juan Carlos Retamal en el
-                        área de procesamiento de información cuántica en el modelo cuántico de Rabi, desarrollando
-                        trabajos en quantum machine learning, thermal machines, quantum algorithms, y quantum
-                        simulations.</p>
-                    <p class="txtinstructores">Se especializa en plataformas cuánticas como circuitos superconductores e
-                        Iones atrapados. En el periodo 2019-2020 fue investigador posdoctoral en el grupo del Dr.
-                        Enrique Solano en la Universidad de Shanghai en tecnologías cuánticas, desarrollando trabajos en
-                        campos como Quantum Machine Learning, Quantum Algorithms, Quantum Memristive Devices y Quantum
-                        Simulations.</p>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Juan Pablo Soto-->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/juanpablo.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Juan Pablo Soto</p>
-                    <p class="txtinstructores">Es ejecutivo técnico e IBM Inventor, dedicado a transformar empresas a
-                        través de tecnologías disruptivas. Lidera la práctica de Customer Success en el Cono Sur de
-                        América Latina. Es un embajador certificado de IBM Quantum, el computador cuántico de IBM.
-                        Lideró las Arquitecturas de Cloud y la adopción temprana de DevOps, Agile y Design Thinking en
-                        la región. Además, es un reconocido influencer de redes sociales respecto a nuevas tecnologías.
-                    </p>
-                    <a href="https://twitter.com/jpsoto" target="_blank"
-                        style="color: black; text-decoration: none;"><img src="assets/img/logo-twitter.png"
-                            alt="">@jpsoto </a>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Dominique Spehner-->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/dominique.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Dominique Spehner</p>
-                    <p class="txtinstructores">Académico del Departamento de Ingeniería Matemática de la Universidad de
-                        Concepción. Es Doctor en Física Teórica de la Universidad Paul Sabatier, en Francia (2000),
-                        Magíster en Física Teórica del École Normale Supérieure, de Francia (1994) y Licenciado en
-                        Física de la Universidad Joseph Fourier, de Francia (1994).
-                    </p>
-                    <p class="txtinstructores">Fue docente de la Universidad de Grenoble Aples, de Francia entre 2005 y
-                        2018. Sus áreas de interés son:
-                        Quantum information theory, Open Quantum Systems, Decoherence, Quantum metrology, Cold atomic
-                        gases.
-                    </p>
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Tomás Ramos-->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/tomas.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Tomás Ramos</p>
-                    <p class="txtinstructores">Tomás Ramos estudió Física en la Universidad de Concepción, Chile, donde
-                        obtuvo el grado de Magíster con una tesis sobre Electrodinámica clásica en medios materiales,
-                        guiada por el profesor G. Rubilar (2011). Luego, realizó estudios doctorales en la Universidad
-                        de Innsbruck, Austria. Su tesis “Chiral Quantum optics with spins, photons, and photons” (2016),
-                        fue guiada por el profesor Peter Zoller, uno de los padres de la Óptica e Información Cuántica.
-                        Desde finales de 2016, Tomás trabaja como investigador postdoctoral en el Consejo Superior de
-                        Investigaciones Científicas (CSIC) en Madrid, donde colabora con científicos líderes en
-                        tecnologías cuánticas, entre ellos Juanjo García-Ripoll, Diego Porras, y Alejandro
-                        González-Tudela. Durante este periodo postdoctoral, Tomás ha recibido una beca Marie Curie de la
-                        Unión Europea, dos becas Juan de la Cierva del Ministerio de Ciencias español y recientemente un
-                        contrato tenure-track “Ramón y Cajal” para la inserción en la academia española. Su línea
-                        principal de investigación es la óptica cuántica aplicada a tecnologías cuánticas basadas en
-                        fotones en plataformas, como la nanofotónica o circuitos superconductores.
-                    </p>
-                    <a href="https://quinfog.hbar.es/members/tomas-ramos/" target="_blank"><img
-                            src="assets/img/logo-cursor.png" alt=""></a>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Luciano Pereira -->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/luciano.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Luciano Pereira </p>
-                    <p class="txtinstructores">Luciano Pereira estudió Ciencias Físicas en la Universidad de Concepción,
-                        donde posteriormente también hizo un Magíster en Física. Actualmente se encuentra realizando un
-                        doctorado en física en el Instituto de Física Fundamental (IFF) del Consejo Superior de
-                        Investigaciones Científicas (CSIC) en Madrid, España. Sus principales líneas de investigación
-                        son la caracterización de sistemas cuánticos, algoritmos variacionales, y circuitos
-                        superconductores. Luciano forma parte del “Qiskit Advocates program” y ha tenido destacadas
-                        participaciones en desafíos y hackáthones en computación cuántica como: IBM Quantum Challenge
-                        2019, 2020 y 2021, QHACK 2021 y 2022, Qiskit Hackathon Europe 2021, Qiskit Hackathon Madrid
-                        2021, Global Qiskit Hackathon 2021.
-                    </p>
-                    <a href="https://scholar.google.es/citations?user=PvGLqIwAAAAJ&hl=es" target="_blank"><img
-                            src="assets/img/logo-google.png" alt=""></a>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Bárbara Alejandra Candia Gonzalez -->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/barbara.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Bárbara Alejandra Candia Gonzalez </p>
-                    <p class="txtinstructores">Actualmente se desempeña como asistente de investigación del grupo de
-                        información cuántica del Instituto Milenio de Investigación en Óptica (MIRO). Obtuvo su
-                        Licenciatura en Física (2019) y su Magíster en Física (2022) bajo la guía del investigador de
-                        MIRO Dr. Aldo Delgado en la Universidad de Concepción y se está preparando para iniciar sus
-                        estudios de doctorado en EE.UU. Su investigación se centra en control cuántico y cómo puede ser
-                        utilizado en resolver problemas de interés.
-                    </p>
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-    <!--Andrés Damián Muñoz Möller -->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/andres.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Andrés Damián Muñoz Möller</p>
-                    <p class="txtinstructores">Actualmente se desempeña como ayudante de investigación del grupo de
-                        información cuántica del Instituto Milenio de Investigación en Óptica (MIRO). Obtuvo su
-                        Licenciatura en Física (2019) y su Magíster en Física (2022) en la Universidad de Concepción,
-                        siendo la información cuántica y la computación cuántica sus principales áreas de investigación.
-                        Participó en diversas actividades y competencias de computación cuántica, obteniendo primer
-                        lugar en la Hackathon de Qiskit Fall-Fest y segundo lugar en la Open Hackathon QHack 2022 en el
-                        subtema de simulación cuántica.
-                    </p>
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Daniel Concha Merino -->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/daniel.png" alt="del 9 al 13 de enero"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Daniel Concha Merino</p>
-                    <p class="txtinstructores">Realizó sus estudios de Pregrado y Magíster en Física en la Universidad
-                        de Concepción, Chile.
-                        Actualmente se encuentra realizando el Doctorado en Ciencias Físicas de la Universidad de
-                        Concepción. Sus intereses en cuanto a la investigación incluyen las comunicaciones ópticas
-                        cuánticas en canales ruidosos, teoría de entrelazamiento y fundamentos de la información
-                        cuántica.
-                    </p>
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Felipe Quinteros Moro -->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/felipe.png" alt="Felipe Quinteros Moro"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Felipe Quinteros Moro</p>
-                    <p class="txtinstructores">Estudiante de Magister en Física de la Universidad de Concepción y MIRO.
-                        Se dedica principalmente al estudio de simulaciones computacionales de sistemas físicos y a la
-                        realización de experimentos de óptica cuántica para estudiar fundamentos de mecánica cuántica.
-                    </p>
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Jorge Gidi Chomali -->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/jorge.png" alt="Jorge Gidi Chomali"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Jorge Gidi Chomali</p>
-                    <p class="txtinstructores">Estudió un Magíster en Ciencias con mención en Física y actualmente cursa
-                        un Doctorado en Ciencias Físicas, ambos en la Universidad de Concepción, Chile. Se interesa
-                        principalmente por la simulación eficiente de sistemas físicos, desarrollando simulaciones de
-                        alto rendimiento para estudiar inestabilidades en plasmas cinéticos. Actualmente se especializa
-                        en algoritmos cuánticos variacionales.</p>
-                    <p class="txtinstructores">Jorge fue parte de los equipos desarrolladores de los proyectos
-                        "Threerra", que obtuvo primer lugar en la "Quantum Hackathon CIC-IPN 2021" latinoamericana, y
-                        "VarQuS", ganador del segundo lugar en el desafío de simulación de la "Open Hackathon" mundial,
-                        enmarcada en la "QHACK 2022".</p>
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!--Alejandro Ignacio Rojas Castro -->
-    <div class="container mt-5 pt-5">
-        <div class="containter">
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/img/alejandro.png" alt="Alejandro Ignacio Rojas Castro"></div>
-                <div class="col-md-8 pt-3">
-                    <p class="txtnombreinstructores">Alejandro Ignacio Rojas Castro</p>
-                    <p class="txtinstructores">Oriundo de Osorno, egresó de la carrera de Ciencias Físicas en la
-                        Universidad de Concepción, donde también obtuvo el grado de Magíster en Física. Actualmente
-                        cursa el Doctorado en Ciencias Físicas. Durante su investigación ha desarrollado experiencia en
-                        las áreas de tomografía cuántica y VQE.</p>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!--CUADRO VERDE-->
@@ -553,30 +601,39 @@
 
     <!--Footer -->
 
-    <footer class="container-fluid mt-5 pt-5 bg-dark">
+    <footer class="container-fluid mt-5 pt-5 footer2">
+
+        <!--LOGOS UNIVERSIDADES -->
         <div class="container">
             <div class="row">
-                <div class="col-md text-center pt-3">
-                    <a href="https://www.miroptics.cl/" target="_blank"> <img src="assets/img/logo-miro-blanco.png" alt=""></a>
-                </div>
-                <div class="col-md text-center pt-3">
-                    <a href="https://www.iniciativamilenio.cl/"> <img src="assets/img/logo-financia.png" alt=""></a>
-                </div>
-                <div class="col-md text-center pt-3">
-                    <a href="https://www.udec.cl/pexterno/" target="_blank"> <img src="assets/img/logo-universidad-concepcion.png"
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.miroptics.cl/" target="_blank"> <img src="assets/img/logo-miro-blanco.png"
                             alt=""></a>
                 </div>
                 <div class="col-md text-center pt-3">
-                    <a href="https://www.uchile.cl/" target="_blank"> <img src="assets/img/logo-universidad-chile.png" alt=""></a>
+                    <p class="textofooter">Financian:</p>
+                    <a href="https://www.iniciativamilenio.cl/"> <img src="assets/img/logo-financia.png" alt=""></a>
                 </div>
                 <div class="col-md text-center pt-3">
-                    <a href="https://www.uandes.cl/" target="_blank"> <img src="assets/img/logo-universidad-andes.png" alt=""></a>
+                    <p class="textofooter">Albergan:</p>
+                    <a href="https://www.udec.cl/pexterno/" target="_blank"> <img
+                            src="assets/img/logo-universidad-concepcion.png" alt=""></a>
                 </div>
-                <div class="col-md text-center pt-3">
-                    <a href="https://www.uc.cl/" target="_blank"> <img src="assets/img/logo-universidad-catolica.png" alt=""></a>
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.uchile.cl/" target="_blank"> <img src="assets/img/logo-universidad-chile.png"
+                            alt=""></a>
                 </div>
-                <div class="col-md text-center pt-3">
-                    <a href="https://usach.cl/" target="_blank"> <img src="assets/img/logo-universidad-santiago.png" alt=""></a>
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.uandes.cl/" target="_blank"> <img src="assets/img/logo-universidad-andes.png"
+                            alt=""></a>
+                </div>
+                <div class="col-md text-center pt-5">
+                    <a href="https://www.uc.cl/" target="_blank"> <img src="assets/img/logo-universidad-catolica.png"
+                            alt=""></a>
+                </div>
+                <div class="col-md text-center pt-5">
+                    <a href="https://usach.cl/" target="_blank"> <img src="assets/img/logo-universidad-santiago.png"
+                            alt=""></a>
                 </div>
 
             </div>
@@ -585,14 +642,17 @@
 
         <hr class="border-light">
 
+        <!--REDES SOCIALES MIRO -->
         <div class="container mt-5">
             <div class="row">
 
                 <div class="col-md text-center pt-3">
-                    <a href="https://twitter.com/miroptics" target="_blank"> <img src="assets/img/twitter-miro.png" alt=""></a>
+                    <a href="https://twitter.com/miroptics" target="_blank"> <img src="assets/img/twitter-miro.png"
+                            alt=""></a>
                 </div>
                 <div class="col-md text-center pt-3">
-                    <a href="https://www.instagram.com/miroptics/" target="_blank"> <img src="assets/img/instagram-miro.png" alt=""></a>
+                    <a href="https://www.instagram.com/miroptics/" target="_blank"> <img
+                            src="assets/img/instagram-miro.png" alt=""></a>
                 </div>
                 <div class="col-md text-center pt-3">
                     <a href="https://web.facebook.com/institutomileniomiro/?_rdc=1&_rdr" target="_blank"> <img
@@ -610,6 +670,7 @@
 
         <br>
     </footer>
+
 
 
 
